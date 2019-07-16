@@ -5,3 +5,4 @@ export const Contact = () => (
         This is our Contact page that is under construction.
     </div>
 );
+
