@@ -3,6 +3,8 @@ import { Container, Row, Col, Image } from 'react-bootstrap';
 import Navbarcomp from './components/Navbar'
 import snow from './images/snow.jpeg'
 import './index.css'
+import Portrait from './images/Portrait.png'
+import Procomp from './components/MainPage/Proficiencies'
 
 export const Main = () => (
     <>
@@ -10,15 +12,22 @@ export const Main = () => (
 
         
             <Navbarcomp />
-            <Image src={snow} alt="Snowy Img" fluid />
+            <Image src={snow} alt="Snowy Img" fluid/>
         
 
 
         <Container className="pt-1">
             <Row className="pt-5">
-                <Col className="text-center display-1"> 
+                <Col className="text-center display-2"> 
                 Parker Call
                 </Col>
+            </Row>
+            <Row className="pt-5">
+                <img 
+                className="mx-auto"
+                src={Portrait}
+                alt="Portrait goes here"
+                />
             </Row>
             <Row className="pt-5">
                 <Col className="text-center">
@@ -29,6 +38,12 @@ export const Main = () => (
                 Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
                 </Col>
             </Row>
+            <Row className="pt-5">
+                <Col className="text-center display-3">
+                    Certified Proficiencies
+                </Col>
+            </Row>
+            <Procomp/>
         </Container>
     </>
 );
