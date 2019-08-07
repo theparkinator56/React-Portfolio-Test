@@ -12,24 +12,31 @@ export const Main = () => (
 
         
             <Navbarcomp />
-            <Image src={snow} alt="Snowy Img" fluid/>
         
 
 
         <Container className="pt-1">
-            <Row className="pt-5">
-                <Col className="text-center display-2"> 
-                Parker Call
-                </Col>
-            </Row>
-            <Row className="pt-5">
-                <img 
+        <Row className="pt-5">
+                <Image 
                 className="mx-auto"
                 src={Portrait}
                 alt="Portrait goes here"
                 />
             </Row>
             <Row className="pt-5">
+                <Col className="text-center display-2"> 
+                Parker Call
+                </Col>
+            </Row>
+            <Row className="pt-5">
+                <Col className="text-center display-4"> 
+                Full stack web developer
+                </Col>
+            </Row>
+            </Container>
+            <Image src={snow} alt="Snowy Img" fluid className="pt-5"/>
+            <Container className="pt-5">
+            <Row>
                 <Col className="text-center">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                 sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
@@ -39,7 +46,7 @@ export const Main = () => (
                 </Col>
             </Row>
             <Row className="pt-5">
-                <Col className="text-center display-3">
+                <Col className="text-center display-4">
                     Certified Proficiencies
                 </Col>
             </Row>
