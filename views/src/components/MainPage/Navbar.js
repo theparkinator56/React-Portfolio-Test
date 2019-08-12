@@ -1,8 +1,8 @@
 import React from 'react';
 import { Navbar, Nav } from 'react-bootstrap';
-import '../index.css'
-import linkdin from '../images/linkdin.png'
-import github from '../images/Octicons-mark-github.svg'
+import '../../index.css'
+import linkdin from '../../images/linkdin.png'
+import github from '../../images/Octicons-mark-github.svg'
 
 const Navbarcomp = () => {
     return (

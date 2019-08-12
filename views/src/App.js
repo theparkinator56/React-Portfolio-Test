@@ -1,10 +1,11 @@
 import React from 'react';
 import './index.css';
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
-import { Main } from './Main'
-import { Contact } from './Contact'
-import { Layout } from './layout'
-import { NoMatch } from './NoMatch'
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import { Main } from './components/MainPage/Main';
+import { Contact } from './components/Contact';
+import { Layout } from './components/layout';
+import { NoMatch } from './components/NoMatch';
+import { Projects } from './components/projects';
 
 
 const App = () => {
@@ -17,6 +18,7 @@ const App = () => {
             <Route exact path='/' component={Main} />
             <Route exact path='/Contact' component={Contact} />
             <Route exact path='/Github' />
+            <Route exact path='/Projects' component={Projects}/>
             <Route component={NoMatch} />
           </Switch>
         </Router>
@@ -24,7 +26,7 @@ const App = () => {
 
     
   )
-}
+};
 
 
 export default App;

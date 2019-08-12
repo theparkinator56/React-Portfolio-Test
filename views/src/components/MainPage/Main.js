@@ -1,10 +1,10 @@
 import React from 'react';
 import { Container, Row, Col, Image } from 'react-bootstrap';
-import Navbarcomp from './components/Navbar'
-import snow from './images/snow.jpeg'
-import './index.css'
-import Portrait from './images/plz-make-better.jpg'
-import Procomp from './components/MainPage/Proficiencies'
+import Navbarcomp from './Navbar'
+import snow from '../../images/snow.jpeg'
+import '../../index.css'
+import Portrait from '../../images/plz-make-better.jpg'
+import Procomp from './Proficiencies'
 
 export const Main = () => (
     <>

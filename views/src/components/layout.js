@@ -1,6 +1,6 @@
 import React from 'react';
 import {Container} from 'react-bootstrap';
-import './index.css';
+import '../index.css';
 
 export const Layout = (props) => (
     <Container fluid>
