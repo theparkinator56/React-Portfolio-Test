@@ -11,9 +11,8 @@ const port = process.env.PORT || 80;
 let app = express()
 .use(bodyParser.urlencoded({ extended: false }))
 .use(bodyParser.json())
-// .use(validator())
 .set('view engine','ejs')
-.use(express.static("views"))
+.use(express.static("build"))
 .use(cookieParser())
 // .use(expressSession({
 //     secret : 'soooosecret',
@@ -25,7 +24,7 @@ let app = express()
 app.use(express.static(path.join(__dirname, 'react-bootstrap-test', 'build')));
 
 app.get('*', (req, res) => {
-    res.sendFile(path.join(__dirname, 'views', 'public', 'index.html'))
+    res.sendFile(path.join(__dirname, 'build', 'index.html'))
   });
  
 
