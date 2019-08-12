@@ -19,7 +19,7 @@ let app = express()
 //     resave : true,
 //     saveUninitialized : false
 // }))
-.use(session({keys: ['secretkey1', 'secretkey2', '...']}))
+.use(session({keys: ['secretkey1', 'secretkey2', '...']}));
 
 app.use(express.static(path.join(__dirname, 'react-bootstrap-test', 'build')));
 

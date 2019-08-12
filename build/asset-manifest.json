@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/static/css/main.18d86b04.chunk.css",
+    "main.js": "/static/js/main.07de7052.chunk.js",
+    "main.js.map": "/static/js/main.07de7052.chunk.js.map",
+    "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
+    "runtime~main.js.map": "/static/js/runtime~main.a8a9905a.js.map",
+    "static/js/2.38a21343.chunk.js": "/static/js/2.38a21343.chunk.js",
+    "static/js/2.38a21343.chunk.js.map": "/static/js/2.38a21343.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.6db5e29586b49a95a0968b9e45375948.js": "/precache-manifest.6db5e29586b49a95a0968b9e45375948.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.18d86b04.chunk.css.map": "/static/css/main.18d86b04.chunk.css.map",
+    "static/media/CSS3-logo.svg": "/static/media/CSS3-logo.7415a70a.svg",
+    "static/media/Git_icon.svg.png": "/static/media/Git_icon.svg.ee1369e9.png",
+    "static/media/Octicons-mark-github.svg": "/static/media/Octicons-mark-github.07883e93.svg",
+    "static/media/javascript-logo.png": "/static/media/javascript-logo.e8c27f6b.png",
+    "static/media/linkdin.png": "/static/media/linkdin.a779715b.png",
+    "static/media/nodejs-logo.png": "/static/media/nodejs-logo.d42672d4.png",
+    "static/media/plz-make-better.jpg": "/static/media/plz-make-better.c4e65635.jpg",
+    "static/media/react-1.svg": "/static/media/react-1.876a8325.svg",
+    "static/media/snow.jpeg": "/static/media/snow.8df71261.jpeg"
+  }
+}
