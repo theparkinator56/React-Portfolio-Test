@@ -1,33 +1,38 @@
 import React from 'react';
-import { Form, Col, Row, Container } from 'react-bootstrap';
+import { Form, Col, Row, Container, Image, Button } from 'react-bootstrap';
 import linkdin from '../images/linkdin.png';
 import github from '../images/Octicons-mark-github.svg';
 
 
 export const Contact = () => (
     <>
-    <Container>
-        <Row classname="justify-content-md-center">
+    <Container className="pt-10">
+        <Row classname="text-center">
             If you would like to shoot me a message you can at any one of my profiles 
-                (I check my Email the most but I check everything pretty regularly).
-    
-            <Col xs lg="2">
                 
+    </Row>
+    <Row className="pt-10">
+            <Col xs lg="2">
+                <a href="https://github.com/theparkinator56">
             <Image
-                    
+                    width="100"
+                    height="100"
                     src={github}
                     alt="Github goes here"
-                    href="https://github.com/theparkinator56"
+                    
                 />
+                </a>
             </Col>
             <Col xs lg="2">
-                
+                <a href="https://www.linkedin.com/in/parker-call/">
             <Image
-                    
+                    width="100"
+                    height="100"
                     src={linkdin}
                     alt="Linkdin goes here"
-                    href="https://www.linkedin.com/in/parker-call/"
+                    
                 />
+                </a>
             </Col>
             <Col xs lg="2">
                 Email: parkercall56@gmail.com
@@ -35,9 +40,11 @@ export const Contact = () => (
                 Phone: (1) 763-528-5943
             
             </Col>
-
+</Row>
             
-        </Row>
+
+        </Container>
+        <Container className="mt-10">
         <Row classname="justify-content-md-center">
             <Form>
                 <Form.Group controlId="Contact.name">
@@ -58,6 +65,7 @@ export const Contact = () => (
                 </Form>
         </Row>
         </Container>
+
     </>
 );
 

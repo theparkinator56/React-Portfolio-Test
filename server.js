@@ -21,7 +21,7 @@ let app = express()
 // }))
 .use(session({keys: ['secretkey1', 'secretkey2', '...']}));
 
-app.use(express.static(path.join(__dirname, 'react-bootstrap-test', 'build')));
+app.use(express.static(path.join(__dirname, 'build')));
 
 app.get('*', (req, res) => {
     res.sendFile(path.join(__dirname, 'build', 'index.html'))

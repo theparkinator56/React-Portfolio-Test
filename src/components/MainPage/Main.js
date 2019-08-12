@@ -52,7 +52,7 @@ export const Main = () => (
                     Certified Proficiencies
                 </Col>
             </Row>
-            <Procomp />
+            <Procomp className="pb-20"/>
         </Container>
     </>
 );
