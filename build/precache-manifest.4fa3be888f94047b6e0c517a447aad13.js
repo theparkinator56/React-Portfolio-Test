@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "bed767b24e4dddbbf196339ab5861016",
+    "revision": "a7f03596d16646d918d3e094c4c9746b",
     "url": "/index.html"
   },
   {
-    "revision": "7795075cda28b3b8a107",
+    "revision": "4445a4a674dd253a873d",
     "url": "/static/css/main.18d86b04.chunk.css"
   },
   {
-    "revision": "4056101899e649bc178f",
-    "url": "/static/js/2.cd76e578.chunk.js"
+    "revision": "86267c8616b6fb3f7911",
+    "url": "/static/js/2.31c4c52f.chunk.js"
   },
   {
-    "revision": "7795075cda28b3b8a107",
-    "url": "/static/js/main.adc6a3cc.chunk.js"
+    "revision": "4445a4a674dd253a873d",
+    "url": "/static/js/main.42df29ca.chunk.js"
   },
   {
     "revision": "42ac5946195a7306e2a5",
@@ -30,6 +30,14 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "07883e93734b98cae0f7b9c55d287250",
     "url": "/static/media/Octicons-mark-github.07883e93.svg"
+  },
+  {
+    "revision": "68a67387af81e591da388e6ca071fca8",
+    "url": "/static/media/giphy.68a67387.png"
+  },
+  {
+    "revision": "8a18731a6002f97b1b45dfbf23f92edb",
+    "url": "/static/media/hot-restaurant.8a18731a.png"
   },
   {
     "revision": "e8c27f6b0fcf596a06a31135d937c73e",
@@ -52,7 +60,15 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/react-1.876a8325.svg"
   },
   {
+    "revision": "cb09580684b502efa243553bfe499200",
+    "url": "/static/media/recikey.cb095806.png"
+  },
+  {
     "revision": "8df71261b2b1b544871c9d85cf7320ac",
     "url": "/static/media/snow.8df71261.jpeg"
+  },
+  {
+    "revision": "d76ca1362478d9a4c6b34cc2dd45c0ce",
+    "url": "/static/media/ston.d76ca136.png"
   }
 ]);
