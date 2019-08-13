@@ -40,11 +40,12 @@ export const Main = () => (
         <Container className="pt-5">
             <Row>
                 <Col className="text-center">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-                    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    Computers have been a major part of my life, 
+                    I learned simple terminal commands when I was 5 years old.
+                    I learned simple python code when I was In my junior year of high school,
+                    and I built my first rig when I was 19. I recently graduated at the University
+                    of MN coding bootcamp, I am trained in the MERN stack but I also know
+                    my way around Python, MySQL, Jquery, Git, and Bootstrap.
                 </Col>
             </Row>
             <Row className="pt-5">
