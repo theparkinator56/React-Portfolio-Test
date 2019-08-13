@@ -2,11 +2,14 @@ import React from 'react';
 import { Form, Col, Row, Container, Image, Button } from 'react-bootstrap';
 import linkdin from '../images/linkdin.png';
 import github from '../images/Octicons-mark-github.svg';
+import Navbarcomp from './MainPage/Navbar';
 
 
 export const Contact = () => (
     <>
     <Container className="pt-10">
+
+        <Navbarcomp/>
         <Row classname="text-center">
             If you would like to shoot me a message you can at any one of my profiles 
                 
@@ -45,7 +48,7 @@ export const Contact = () => (
 
         </Container>
         <Container className="mt-10">
-        <Row classname="justify-content-md-center">
+        <Row>
             <Form>
                 <Form.Group controlId="Contact.name">
                     <Form.Label>Name</Form.Label>

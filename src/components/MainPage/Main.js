@@ -36,7 +36,7 @@ export const Main = () => (
                 </Col>
             </Row>
         </Container>
-        <Image src={snow} alt="Snowy Img" fluid className="pt-5" />
+
         <Container className="pt-5">
             <Row>
                 <Col className="text-center">

@@ -1,5 +1,6 @@
 import React from 'react';
 import { Container, Image, Col, Row, Card } from 'react-bootstrap';
+import Navbarcomp from './MainPage/Navbar';
 import snow from '../images/snow.jpeg';
 import recikey from '../images/recikey.png'
 import Hot from '../images/hot-restaurant.png';
@@ -11,6 +12,8 @@ export const Projects = () => (
 
     <>
         <Container fluid className="pt-5" >
+
+            <Navbarcomp/>
             <Image src={snow} alt="Snowy Img" fluid className="pt-5" />
                 <Col className="text-center display-2"> Projects </Col>
             <Row className="pt-10">
