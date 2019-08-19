@@ -53,7 +53,9 @@ export const Main = () => (
                     Certified Proficiencies
                 </Col>
             </Row>
-            <Procomp className="pb-20"/>
+            <Procomp className="pb-5 mb-5"/>
+            <Row className="pt-5 mt-5">
+                </Row>
         </Container>
     </>
 );

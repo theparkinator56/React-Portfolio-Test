@@ -16,7 +16,7 @@ export const Projects = () => (
             <Navbarcomp/>
             <Image src={snow} alt="Snowy Img" fluid className="pt-5" />
                 <Col className="text-center display-2"> Projects </Col>
-            <Row className="pt-10">
+            <Row className="pt-5 mt-5">
                 <Col>
                     <Card style={{ width: '18rem' }}>
                         <Card.Img variant="top" src={recikey} />

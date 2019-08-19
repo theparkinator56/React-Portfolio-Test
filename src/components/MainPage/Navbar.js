@@ -6,7 +6,7 @@ import github from '../../images/Octicons-mark-github.svg'
 
 const Navbarcomp = () => {
     return (
-        <Navbar sticky="top">
+        <Navbar sticky="top" bg="light">
             <Nav className="mr-0">
                 <Nav.Link className="darktext" href="/contact">Contact</Nav.Link>
                 <Nav.Link className="darktext" href="/Projects">Projects</Nav.Link>
