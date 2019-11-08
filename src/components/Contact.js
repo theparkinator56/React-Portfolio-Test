@@ -49,18 +49,21 @@ export const Contact = () => (
         </Container>
         <Container className="mt-10">
         <Row>
-            <Form>
+            <Form
+            action="https://formspree.io/xzbbzzbo"
+            method="POST"
+            >
                 <Form.Group controlId="Contact.name">
                     <Form.Label>Name</Form.Label>
                     <Form.Control placeholder="John/Jane doe" />
                 </Form.Group>
                 <Form.Group controlId="Contact.email">
                     <Form.Label>Email</Form.Label>
-                    <Form.Control type="email" placeholder="name@example.com" />
+                    <Form.Control type="email" placeholder="name@example.com" name="_replyto"/>
                 </Form.Group>
                 <Form.Group controlId="Contact.message">
                     <Form.Label>Message</Form.Label>
-                    <Form.Control as="textarea" rows="3" />
+                    <Form.Control as="textarea" rows="3" name="message"/>
                 </Form.Group>
                     <Button variant="primary" type="submit">
                         Send
