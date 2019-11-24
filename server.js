@@ -6,7 +6,7 @@ const session = require("cookie-session");
 const expressSession = require("express-session");
 const path = require("path");
 
-const port = process.env.PORT || 443;
+const port = process.env.PORT || 80;
 
 let app = express()
 .use(bodyParser.urlencoded({ extended: false }))
