@@ -47,11 +47,12 @@ export const Contact = () => (
             
 
         </Container>
-        <Container className="mt-10">
+        <Container fluid className="mt-10">
         <Row>
             <Form
             action="https://formspree.io/xzbbzzbo"
             method="POST"
+            classname="d-flex"
             >
                 <Form.Group controlId="Contact.name">
                     <Form.Label>Name</Form.Label>
