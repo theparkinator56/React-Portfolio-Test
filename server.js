@@ -23,11 +23,8 @@ let app = express()
 
 app.use(express.static(path.join(__dirname, 'build')));
 
-app.get('*', (req, res) => {
+  app.get("*", function(req, res){
     res.sendFile(path.join(__dirname, 'build', 'index.html'))
-  });
-  app.get("*", function(request, response){
-    response.redirect("https://" + request.headers.host + request.url);
   });
 
  app.listen(port, () => console.log(`Server running at ${port}`));
